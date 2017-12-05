@@ -51,7 +51,7 @@
     		"sudo nginx -t",
     		"sudo systemctl restart nginx",
             "sudo mkdir /var/www/example",
-            "sudo mv $HOME/Assets/site.html /var/www/example/"
+            "sudo mv $HOME/Assets/site.html /var/www/example/index.html"
     	]
     }]
 }
