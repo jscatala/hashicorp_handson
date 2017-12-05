@@ -36,6 +36,11 @@
     	"destination": "$HOME/Assets/example_nginx.conf"
     },
     {
+    	"type": "file",
+    	"source": "site.html",
+    	"destination": "$HOME/Assets/site.html"
+    },
+    {
     	"type": "shell",
     	"inline": [
     		"sleep 10",
